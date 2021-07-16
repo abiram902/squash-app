@@ -1,0 +1,17 @@
+.custominput__container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position:relative;
+   
+    border-radius: 5px;
+    
+    margin-bottom: 20px;
+}
+.custominput__input{
+    width:100%;
+    
+    padding-left: 50px;
+    
+}

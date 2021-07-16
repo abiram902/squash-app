@@ -1,0 +1,13 @@
+.country__select__input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 1px;
+
+}
+.country__select__input >img{
+    border:1px solid grey;
+    position: absolute;
+    left:10px;
+}
