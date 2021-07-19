@@ -1,0 +1,33 @@
+.personalDetails__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:80%;
+    justify-content: center;
+    padding: 3%;
+}
+#gender{
+    display: flex;
+    margin-bottom: 20px;
+}
+.radio{
+    display: none;
+}
+.label{
+    margin-right: 30px;
+    padding:5px 10px;
+}
+
+.radio:checked + .label{
+    background: rgba(255, 197, 8,0.3);
+    border:1px solid rgba(255, 197, 8,1);
+    border-radius:5px;
+    color:rgba(255, 197, 8,1);
+}
+#countries{
+    width:20%;
+}
+.PhoneInputInput{
+    width:100%;
+    
+}
