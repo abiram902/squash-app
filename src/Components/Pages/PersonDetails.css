@@ -1,0 +1,41 @@
+.personalDetails__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  justify-content: center;
+  padding: 3%;
+}
+.personaldetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100vw;
+}
+#gender {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+.radio {
+  display: none;
+}
+.label {
+  margin-right: 30px;
+  padding: 5px 10px;
+}
+
+.radio:checked + .label {
+  background: var(--secondaryOrange);
+
+  border-radius: 3px;
+  color: var(--primaryOrange);
+}
+#countries {
+  width: 20%;
+}
+.PhoneInputInput {
+  width: 100%;
+}

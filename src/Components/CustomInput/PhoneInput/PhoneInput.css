@@ -1,0 +1,51 @@
+.PhoneInput__container {
+  display: flex;
+  width: 100%;
+}
+.dropdown__wrapper {
+  position: relative;
+}
+.dropdown__wrapper > button {
+  height: 100%;
+  margin: 0;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  background-color: #f9f9f9;
+  appearance: none;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  max-height: 150px;
+  width: 90%;
+  overflow: auto;
+
+  text-align: center;
+  border: 1px solid #989898;
+}
+.dropdown__options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid #999;
+  padding: 5px 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.flag__image__container {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}

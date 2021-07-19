@@ -1,0 +1,68 @@
+.companydetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100vw;
+}
+.companyDetails__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  justify-content: center;
+  padding: 3%;
+}
+.companydetails__button__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.checkbox > label {
+  margin: 0 10px;
+}
+.checkbox__input {
+  margin-left: 2%;
+}
+.footer__personalDetail {
+  color: #989898;
+}
+.footer__personalDetail > span {
+  color: var(--primaryOrange);
+}
+input[type="file"] {
+  display: none;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+.placeholder__image {
+  height: 100%;
+}
+.placeholder__image__container {
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px double #989898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.fileupload__label {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}

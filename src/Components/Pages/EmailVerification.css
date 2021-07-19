@@ -1,0 +1,67 @@
+.emailverification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100vw;
+}
+.emailverification > p {
+  color: #515050;
+}
+strong {
+  color: black;
+}
+.emailverification__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  justify-content: center;
+  padding: 3%;
+}
+.emailverification > p {
+  max-width: 500px;
+  text-align: center;
+}
+.form__button__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.otp__input__container {
+  width: 40px;
+  display: flex;
+  text-align: center;
+}
+.otp__input__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 10px auto;
+}
+.otp__input__container > input {
+  text-align: center;
+  appearance: none;
+}
+.footer__emailverification {
+  color: #989898;
+  text-align: center;
+  margin: 10px auto;
+}
+.footer__emailverification > span {
+  color: var(--primaryOrange);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

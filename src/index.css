@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  --primaryOrange: #ed5901;
+  --secondaryOrange: #fdeee6;
+  --primaryGrey: #c0c9d1;
+  --secondaryBlue: #28435a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  appearance: none;
+  border: none;
+  background: #f9f9f9;
+  padding: 10px 5px;
+  outline: none;
+  width: 100%;
+  border: 1px solid var(--primaryGrey);
+  border-radius: 5px;
+  overflow: hidden;
+}
+input[type="text"]:focus,
+input[type="text"]:active {
+  background: transparent;
+  border-color: var(--primaryOrange);
+}
+.input__container {
+  width: 100%;
+
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+}
+.input__container:focus,
+.input__container:active {
+  border-color: var(--primaryOrange);
+}
+.form__button {
+  padding: 10px;
+  appearance: none;
+  border: none;
+  border-radius: 5px;
+}
+label {
+  margin-bottom: 5px;
+  color: grey;
+}
+.back__button {
+  width: 20%;
+  margin-right: 2%;
+}
+.fullsize__button {
+  width: 100%;
+  background-color: var(--primaryOrange);
+  color: #f2f2f2;
+}
+.next__button {
+  width: 78%;
+  background-color: var(--primaryOrange);
+  color: #f2f2f2;
+}
+.decativated {
+  background-color: rgb(223, 166, 133);
+}
+.orange__text {
+  color: var(--primaryOrange);
+}
+.error__message {
+  font-size: 0.75em;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
