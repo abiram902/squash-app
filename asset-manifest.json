@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/squash-app/static/css/main.c1d7aa22.chunk.css",
+    "main.js": "/squash-app/static/js/main.252553b7.chunk.js",
+    "main.js.map": "/squash-app/static/js/main.252553b7.chunk.js.map",
+    "runtime-main.js": "/squash-app/static/js/runtime-main.48d091ff.js",
+    "runtime-main.js.map": "/squash-app/static/js/runtime-main.48d091ff.js.map",
+    "static/js/2.9a3c0e8c.chunk.js": "/squash-app/static/js/2.9a3c0e8c.chunk.js",
+    "static/js/2.9a3c0e8c.chunk.js.map": "/squash-app/static/js/2.9a3c0e8c.chunk.js.map",
+    "index.html": "/squash-app/index.html",
+    "static/css/main.c1d7aa22.chunk.css.map": "/squash-app/static/css/main.c1d7aa22.chunk.css.map",
+    "static/js/2.9a3c0e8c.chunk.js.LICENSE.txt": "/squash-app/static/js/2.9a3c0e8c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48d091ff.js",
+    "static/js/2.9a3c0e8c.chunk.js",
+    "static/css/main.c1d7aa22.chunk.css",
+    "static/js/main.252553b7.chunk.js"
+  ]
+}
